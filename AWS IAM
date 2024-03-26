@@ -1,1 +1,15 @@
+IAM- aunthentication and authorization
+basic question: what access is needed to whom?
+
+
+[GRUP]
+*Users
+*Groups
+*Roles
+*Policies
+
+whenver you create a user, attach them with some policy
+create a group, add users to group (eg: db admin, devlelopers etc)
+create a user and add them inside the group 
+Roles-> assign the roles to a service/user who are outside or on a temporary basis
 
