@@ -13,3 +13,18 @@ create a group, add users to group (eg: db admin, devlelopers etc)
 create a user and add them inside the group 
 Roles-> assign the roles to a service/user who are outside or on a temporary basis
 
+
+AWS policies are of two types: 
+Identity-based policies: This is the policy that binds with AWS identities, such as a users, group, or role. IAM policies are an example of that. These policies can be either Amazon Web Services managed or customer-managed.  
+Resource-based policies: AWS resource-based policies are the ones that can be tied directly to Amazon Resources like a bucket policy (S3). Resource-based policies are only available for certain services. 
+
+
+When granting permissions, we should follow the least privileged principle. We should avoid giving users or roles more permissions than they need to accomplish their tasks by following this principle. For example, if an employee needs only access to a specific EC2 instance, specify the instance in the IAM policy. Rather than granting an employee access to every instance in your AWS account. 
+
+
+Structure 
+Effect — Decides whether the resource is allowed or denied (Allow/Deny)  
+Action — A set of service-specific parameters  
+Resource — Resource names  
+Condition (Optional) — Grant conditions
+
