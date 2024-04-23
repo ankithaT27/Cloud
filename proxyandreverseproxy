@@ -1,0 +1,3 @@
+All the clients send their requests to the proxy and then the proxy will send the client requests to the server. So, what this proxy server basically does is, it will act as a firewall or a shield at the client-side and manage all the client requests and send them to the server accordingly. The main purpose of this kind of proxy is to secure client applications from outside severs and other security vulnerabilities. Why? Because you can see these clients and their IP addresses are not exposed to the outside world, but the proxy server will expose itself on behalf of client applications.
+
+ Remember, not every reverse proxy will act as a load balancer, but every load balancer must be a reverse proxy server.
